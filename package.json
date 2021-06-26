@@ -6,8 +6,7 @@
   "scripts": {
     "compile": "npx hardhat compile",
     "hardhat": "npx hardhat node",
-    "deploy-hh": "npx hardhat run --network localhost scripts/deploy.js",
-    "test": "mocha"
+    "deploy-hh": "npx hardhat run --network localhost scripts/deploy.js"
   },
   "repository": {
     "type": "git",
@@ -20,15 +19,12 @@
   },
   "homepage": "https://github.com/Deanfost/crouch-coin-erc20#readme",
   "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@openzeppelin/contracts": "^4.1.0",
+    "chai": "^4.3.4",
+    "ethers": "^5.3.1",
     "hardhat": "^2.4.1",
     "mocha": "^9.0.1",
-    "solc": "^0.8.6",
-    "truffle-wallet-provider": "^0.0.5",
-    "web3": "^1.3.6"
-  },
-  "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.2",
-    "ethers": "^5.3.1"
+    "solc": "^0.8.6"
   }
 }
